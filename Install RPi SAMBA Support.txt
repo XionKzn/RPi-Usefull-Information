@@ -1,0 +1,5 @@
+sudo apt-get install samba samba-common-bin
+
+sudo nano /etc/samba/smb.conf
+
+#workgroup and wins support, and set them up as follows: workgroup = your_workgroup_name wins support = yes 
