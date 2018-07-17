@@ -1,0 +1,5 @@
+cat /proc/sys/vm/swappiness
+
+sudo nano /etc/sysctl.conf
+#A swappiness setting of zero means that the disk will be avoided unless absolutely necessary (you run out of memory), while a swappiness setting of 100 means that programs will be swapped to disk almost instantly.
+vm.swappiness = 10
